@@ -1,5 +1,8 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
- - rbx-3
+language: python
+
+python:
+~ "2.7"
+~ "3.4"
+
+script:
+~ python helloRoddie.py
